@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+    camunda-spring:
+        build:
+            context: .
+        ports:
+            - 8080:8080
+            
+    prometheus:
+        image: prom/prometheus
+        links:
+            - camunda-spring
+        ports:
+            - 9090:9090
+        volumes:
+            - ./prometheus/camunda-prometheus.yml:/etc/prometheus/prometheus.yml
+            
+    graphana:
+        image: grafana/grafana-oss            
+        links:
+            - prometheus
+        ports:
+            - 3000:3000    	
