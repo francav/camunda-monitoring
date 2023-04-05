@@ -1,0 +1,7 @@
+apiVersion: 1
+datasources:
+ - name: prometheus_camunda
+   uid: 0ff92e6c
+   type: prometheus
+   access: proxy
+   url: http://prometheus:9090   

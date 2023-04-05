@@ -20,4 +20,8 @@ services:
         links:
             - prometheus
         ports:
-            - 3000:3000    	
+            - 3000:3000
+        volumes:
+            - ./grafana/datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
+            - ./grafana/dashboard.yml:/etc/grafana/provisioning/dashboards/main.yml
+            - ./grafana/dashboards:/var/lib/grafana/dashboards

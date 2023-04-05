@@ -31,7 +31,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "A6jeFIfVk"
+        "uid": "0ff92e6c"
       },
       "fieldConfig": {
         "defaults": {
@@ -108,7 +108,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "A6jeFIfVk"
+            "uid": "0ff92e6c"
           },
           "editorMode": "builder",
           "expr": "executor_active_threads{name=\"camundaTaskExecutor\"}",
@@ -121,7 +121,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "A6jeFIfVk"
+            "uid": "0ff92e6c"
           },
           "editorMode": "builder",
           "expr": "executor_pool_size_threads{name=\"camundaTaskExecutor\"}",
@@ -138,7 +138,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "A6jeFIfVk"
+        "uid": "0ff92e6c"
       },
       "fieldConfig": {
         "defaults": {
@@ -215,7 +215,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "A6jeFIfVk"
+            "uid": "0ff92e6c"
           },
           "editorMode": "builder",
           "expr": "job_executions_successful_Number_of_jobs{instance=\"camunda-spring:8080\"}",
@@ -228,7 +228,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "A6jeFIfVk"
+            "uid": "0ff92e6c"
           },
           "editorMode": "builder",
           "expr": "job_executions_failed_Number_of_jobs{instance=\"camunda-spring:8080\"}",
@@ -245,7 +245,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "A6jeFIfVk"
+        "uid": "0ff92e6c"
       },
       "fieldConfig": {
         "defaults": {
@@ -322,7 +322,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "A6jeFIfVk"
+            "uid": "0ff92e6c"
           },
           "editorMode": "builder",
           "expr": "jobs_due",
@@ -339,7 +339,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "A6jeFIfVk"
+        "uid": "0ff92e6c"
       },
       "fieldConfig": {
         "defaults": {
@@ -416,7 +416,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "A6jeFIfVk"
+            "uid": "0ff92e6c"
           },
           "editorMode": "builder",
           "expr": "job_executions_successful_Number_of_jobs",
@@ -429,7 +429,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "A6jeFIfVk"
+            "uid": "0ff92e6c"
           },
           "editorMode": "builder",
           "expr": "job_executions_failed_Number_of_jobs",
